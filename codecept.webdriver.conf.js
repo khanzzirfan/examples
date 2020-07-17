@@ -39,6 +39,28 @@ exports.config = {
       enabled: true,
       services: ["selenium-standalone"],
     },
+    screenshotOnFail: {
+      enabled: true,
+    },
+    allure: {
+      enabled: true,
+    },
+    autoDelay: {
+      enabled: true,
+      delayBefore: 400,
+    },
+    retryFailedStep: {
+      enabled: true,
+      retries: 5,
+    },
+    reportportal: {
+      enabled: true,
+      require: "@reportportal/agent-js-codecept",
+      token: "26c624e8-698d-4675-9901-0437caae7bb0",
+      endpoint: "http://localhost:8080/api/v1",
+      projectName: "superadmin_personal",
+      // projectName: "",
+    },
   },
 
   bootstrap: null,
