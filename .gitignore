@@ -64,3 +64,6 @@ typings/
 data/*
 allure-reports/*
 allure-results/*
+/allure-reports
+/allure-results
+/data

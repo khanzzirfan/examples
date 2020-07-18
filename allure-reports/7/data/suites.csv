@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Jul 17 23:52:15 GMT 2020","Fri Jul 17 23:52:25 GMT 2020","9738","","Create Todos with BDD","","Create Todos with BDD","Create a single todo item @bdd","Create a single todo item @bdd",""
-"passed","Fri Jul 17 23:52:30 GMT 2020","Fri Jul 17 23:52:40 GMT 2020","9358","","Create Todos with BDD","","Create Todos with BDD","Create a again a single todo item @bdd","Create a again a single todo item @bdd",""
-"failed","Fri Jul 17 23:52:25 GMT 2020","Fri Jul 17 23:52:30 GMT 2020","5214","","Create Todos with BDD","","Create Todos with BDD","Create multiple todos @bdd","Create multiple todos @bdd",""
