@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "e2e": "npx codeceptjs run --steps -c codecept.webdriver.conf.js "
+    "e2e": "npx codeceptjs run --steps -c codecept.webdriver.conf.js ",
+    "report": "allure generate ./output && allure open"
   },
   "keywords": [],
   "author": "kaflan, davert",

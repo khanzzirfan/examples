@@ -1,0 +1,266 @@
+{
+  "uid" : "e43f4426b81f258f",
+  "name" : "Create a again a single todo item @bdd",
+  "fullName" : "Create Todos with BDD.Create a again a single todo item @bdd",
+  "historyId" : "ecbb0d7a2ef0fb58060255f647ddfc48",
+  "time" : {
+    "start" : 1595029950760,
+    "stop" : 1595029960118,
+    "duration" : 9358
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I have an empty todo list ",
+      "time" : {
+        "start" : 1595029955959,
+        "stop" : 1595029959204,
+        "duration" : 3245
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "TodosPage: goto ",
+        "time" : {
+          "start" : 1595029955959,
+          "stop" : 1595029959204,
+          "duration" : 3245
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I am on page \"http://todomvc.com/examples/angularjs/#/\"",
+          "time" : {
+            "start" : 1595029955959,
+            "stop" : 1595029958216,
+            "duration" : 2257
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I refresh page ",
+          "time" : {
+            "start" : 1595029958217,
+            "stop" : 1595029958555,
+            "duration" : 338
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I execute script () => sessionStorage.clear()",
+          "time" : {
+            "start" : 1595029958556,
+            "stop" : 1595029958562,
+            "duration" : 6
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I execute script () => console.error('Boom!')",
+          "time" : {
+            "start" : 1595029958563,
+            "stop" : 1595029958569,
+            "duration" : 6
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I wait for visible \".new-todo\"",
+          "time" : {
+            "start" : 1595029958569,
+            "stop" : 1595029958804,
+            "duration" : 235
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 5,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I create a todo 1 ",
+      "time" : {
+        "start" : 1595029959204,
+        "stop" : 1595029960092,
+        "duration" : 888
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "TodosPage: enterTodo ",
+        "time" : {
+          "start" : 1595029959204,
+          "stop" : 1595029960092,
+          "duration" : 888
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I fill field \".new-todo\", \"1\"",
+          "time" : {
+            "start" : 1595029959204,
+            "stop" : 1595029959463,
+            "duration" : 259
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I press key \"Enter\"",
+          "time" : {
+            "start" : 1595029959863,
+            "stop" : 1595029960091,
+            "duration" : 228
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I see the new todo on my list ",
+      "time" : {
+        "start" : 1595029960092,
+        "stop" : 1595029960118,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "TodosPage: seeNumberOfTodos ",
+        "time" : {
+          "start" : 1595029960092,
+          "stop" : 1595029960118,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I see number of visible elements \".todo-list li\", 1",
+          "time" : {
+            "start" : 1595029960092,
+            "stop" : 1595029960118,
+            "duration" : 26
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Create Todos with BDD"
+  }, {
+    "name" : "testClass",
+    "value" : "Create Todos with BDD"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create a again a single todo item @bdd"
+  }, {
+    "name" : "package",
+    "value" : "Create Todos with BDD"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e43f4426b81f258f.json",
+  "parameterValues" : [ ]
+}

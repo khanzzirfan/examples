@@ -1,0 +1,43 @@
+{
+  "f91dcc992c661bc8f0230e303f073434" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4039ff8fd819d714",
+      "reportUrl" : "../4/index.html#testresult/4039ff8fd819d714",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595029367190,
+        "stop" : 1595029377253,
+        "duration" : 10063
+      }
+    } ]
+  },
+  "a5af32a1d886d7c4d071ed6c1aeeb09a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "35cb3f3bb48ade68",
+      "reportUrl" : "../4/index.html#testresult/35cb3f3bb48ade68",
+      "status" : "failed",
+      "statusDetails" : "No steps matching \"I have these todos on my list\"",
+      "time" : {
+        "start" : 1595029377319,
+        "stop" : 1595029382538,
+        "duration" : 5219
+      }
+    } ]
+  }
+}

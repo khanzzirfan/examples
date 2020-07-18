@@ -1,0 +1,21 @@
+[ {
+  "uid" : "35cb3f3bb48ade68",
+  "name" : "Create multiple todos @bdd",
+  "time" : {
+    "start" : 1595029377319,
+    "stop" : 1595029382538,
+    "duration" : 5219
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4039ff8fd819d714",
+  "name" : "Create a single todo item @bdd",
+  "time" : {
+    "start" : 1595029367190,
+    "stop" : 1595029377253,
+    "duration" : 10063
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

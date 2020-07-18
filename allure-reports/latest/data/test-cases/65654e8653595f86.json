@@ -1,0 +1,129 @@
+{
+  "uid" : "65654e8653595f86",
+  "name" : "Create multiple todos @bdd",
+  "fullName" : "Create Todos with BDD.Create multiple todos @bdd",
+  "historyId" : "a5af32a1d886d7c4d071ed6c1aeeb09a",
+  "time" : {
+    "start" : 1595029945239,
+    "stop" : 1595029950453,
+    "duration" : 5214
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "No steps matching \"I have these todos on my list\"",
+  "statusTrace" : "Error: No steps matching \"I have these todos on my list\"\n                    at matchStep (C:\\code\\codeceptjs\\examples\\node_modules\\codeceptjs\\lib\\interfaces\\bdd.js:39:9)\n                    at runSteps (C:\\code\\codeceptjs\\examples\\node_modules\\codeceptjs\\lib\\interfaces\\gherkin.js:37:18)\n                    at Test.<anonymous> (C:\\code\\codeceptjs\\examples\\node_modules\\codeceptjs\\lib\\interfaces\\gherkin.js:87:46)\n                    at Context.test.fn (C:\\code\\codeceptjs\\examples\\node_modules\\codeceptjs\\lib\\scenario.js:57:14)\n                    at callFnAsync (C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runnable.js:415:21)\n                    at Test.Runnable.run (C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runnable.js:357:7)\n                    at Runner.runTest (C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runner.js:535:10)\n                    at C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runner.js:653:12\n                    at next (C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runner.js:447:14)\n                    at C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runner.js:457:7",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "No steps matching \"I have these todos on my list\"",
+    "statusTrace" : "Error: No steps matching \"I have these todos on my list\"\n                    at matchStep (C:\\code\\codeceptjs\\examples\\node_modules\\codeceptjs\\lib\\interfaces\\bdd.js:39:9)\n                    at runSteps (C:\\code\\codeceptjs\\examples\\node_modules\\codeceptjs\\lib\\interfaces\\gherkin.js:37:18)\n                    at Test.<anonymous> (C:\\code\\codeceptjs\\examples\\node_modules\\codeceptjs\\lib\\interfaces\\gherkin.js:87:46)\n                    at Context.test.fn (C:\\code\\codeceptjs\\examples\\node_modules\\codeceptjs\\lib\\scenario.js:57:14)\n                    at callFnAsync (C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runnable.js:415:21)\n                    at Test.Runnable.run (C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runnable.js:357:7)\n                    at Runner.runTest (C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runner.js:535:10)\n                    at C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runner.js:653:12\n                    at next (C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runner.js:447:14)\n                    at C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runner.js:457:7",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "45e28fe23c752af0",
+      "name" : "Last Seen Screenshot",
+      "source" : "45e28fe23c752af0.png",
+      "type" : "image/png",
+      "size" : 4598
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Create Todos with BDD"
+  }, {
+    "name" : "testClass",
+    "value" : "Create Todos with BDD"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create multiple todos @bdd"
+  }, {
+    "name" : "package",
+    "value" : "Create Todos with BDD"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8065317198f0747f",
+      "status" : "failed",
+      "statusDetails" : "No steps matching \"I have these todos on my list\"",
+      "time" : {
+        "start" : 1595029739499,
+        "stop" : 1595029744710,
+        "duration" : 5211
+      }
+    }, {
+      "uid" : "da312d58384c516c",
+      "status" : "failed",
+      "statusDetails" : "No steps matching \"I have these todos on my list\"",
+      "time" : {
+        "start" : 1595029377319,
+        "stop" : 1595029382538,
+        "duration" : 5219
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "410cd073b207d0c0",
+        "reportUrl" : "../6/index.html#testresult/410cd073b207d0c0",
+        "status" : "failed",
+        "statusDetails" : "No steps matching \"I have these todos on my list\"",
+        "time" : {
+          "start" : 1595029739499,
+          "stop" : 1595029744710,
+          "duration" : 5211
+        }
+      }, {
+        "uid" : "395aa2328b126daa",
+        "reportUrl" : "../5/index.html#testresult/395aa2328b126daa",
+        "status" : "failed",
+        "statusDetails" : "No steps matching \"I have these todos on my list\"",
+        "time" : {
+          "start" : 1595029739499,
+          "stop" : 1595029744710,
+          "duration" : 5211
+        }
+      }, {
+        "uid" : "35cb3f3bb48ade68",
+        "reportUrl" : "../4/index.html#testresult/35cb3f3bb48ade68",
+        "status" : "failed",
+        "statusDetails" : "No steps matching \"I have these todos on my list\"",
+        "time" : {
+          "start" : 1595029377319,
+          "stop" : 1595029382538,
+          "duration" : 5219
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "65654e8653595f86.json",
+  "parameterValues" : [ ]
+}

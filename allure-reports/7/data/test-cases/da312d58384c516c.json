@@ -1,0 +1,62 @@
+{
+  "uid" : "da312d58384c516c",
+  "name" : "Create multiple todos @bdd",
+  "fullName" : "Create Todos with BDD.Create multiple todos @bdd",
+  "historyId" : "a5af32a1d886d7c4d071ed6c1aeeb09a",
+  "time" : {
+    "start" : 1595029377319,
+    "stop" : 1595029382538,
+    "duration" : 5219
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "No steps matching \"I have these todos on my list\"",
+  "statusTrace" : "Error: No steps matching \"I have these todos on my list\"\n                    at matchStep (C:\\code\\codeceptjs\\examples\\node_modules\\codeceptjs\\lib\\interfaces\\bdd.js:39:9)\n                    at runSteps (C:\\code\\codeceptjs\\examples\\node_modules\\codeceptjs\\lib\\interfaces\\gherkin.js:37:18)\n                    at Test.<anonymous> (C:\\code\\codeceptjs\\examples\\node_modules\\codeceptjs\\lib\\interfaces\\gherkin.js:87:46)\n                    at Context.test.fn (C:\\code\\codeceptjs\\examples\\node_modules\\codeceptjs\\lib\\scenario.js:57:14)\n                    at callFnAsync (C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runnable.js:415:21)\n                    at Test.Runnable.run (C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runnable.js:357:7)\n                    at Runner.runTest (C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runner.js:535:10)\n                    at C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runner.js:653:12\n                    at next (C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runner.js:447:14)\n                    at C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runner.js:457:7",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "No steps matching \"I have these todos on my list\"",
+    "statusTrace" : "Error: No steps matching \"I have these todos on my list\"\n                    at matchStep (C:\\code\\codeceptjs\\examples\\node_modules\\codeceptjs\\lib\\interfaces\\bdd.js:39:9)\n                    at runSteps (C:\\code\\codeceptjs\\examples\\node_modules\\codeceptjs\\lib\\interfaces\\gherkin.js:37:18)\n                    at Test.<anonymous> (C:\\code\\codeceptjs\\examples\\node_modules\\codeceptjs\\lib\\interfaces\\gherkin.js:87:46)\n                    at Context.test.fn (C:\\code\\codeceptjs\\examples\\node_modules\\codeceptjs\\lib\\scenario.js:57:14)\n                    at callFnAsync (C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runnable.js:415:21)\n                    at Test.Runnable.run (C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runnable.js:357:7)\n                    at Runner.runTest (C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runner.js:535:10)\n                    at C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runner.js:653:12\n                    at next (C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runner.js:447:14)\n                    at C:\\code\\codeceptjs\\examples\\node_modules\\mocha\\lib\\runner.js:457:7",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "Last Seen Screenshot",
+      "type" : "image/png",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Create Todos with BDD"
+  }, {
+    "name" : "testClass",
+    "value" : "Create Todos with BDD"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create multiple todos @bdd"
+  }, {
+    "name" : "package",
+    "value" : "Create Todos with BDD"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da312d58384c516c.json",
+  "parameterValues" : [ ]
+}

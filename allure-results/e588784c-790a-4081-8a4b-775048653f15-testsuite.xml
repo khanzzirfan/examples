@@ -1,0 +1,130 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1595029364285' stop='1595029382838'>
+    <name>Create Todos with BDD</name>
+    <title>Create Todos with BDD</title>
+    <test-cases>
+        <test-case start='1595029367190' status='passed' stop='1595029377253'>
+            <name>Create a single todo item @bdd</name>
+            <title>Create a single todo item @bdd</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1595029372851' status='passed' stop='1595029376329'>
+                    <name>Given I have an empty todo list </name>
+                    <title>Given I have an empty todo list </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1595029372851' status='passed' stop='1595029376329'>
+                            <name>TodosPage: goto </name>
+                            <title>TodosPage: goto </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1595029372851' status='passed' stop='1595029375348'>
+                                    <name>I am on page "http://todomvc.com/examples/angularjs/#/"</name>
+                                    <title>I am on page "http://todomvc.com/examples/angularjs/#/"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1595029375349' status='passed' stop='1595029375715'>
+                                    <name>I refresh page </name>
+                                    <title>I refresh page </title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1595029375715' status='passed' stop='1595029375722'>
+                                    <name>I execute script () => sessionStorage.clear()</name>
+                                    <title>I execute script () => sessionStorage.clear()</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1595029375723' status='passed' stop='1595029375730'>
+                                    <name>I execute script () => console.error('Boom!')</name>
+                                    <title>I execute script () => console.error('Boom!')</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1595029375730' status='passed' stop='1595029375927'>
+                                    <name>I wait for visible ".new-todo"</name>
+                                    <title>I wait for visible ".new-todo"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1595029376329' status='passed' stop='1595029377229'>
+                    <name>When I create a todo 1 </name>
+                    <title>When I create a todo 1 </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1595029376329' status='passed' stop='1595029377229'>
+                            <name>TodosPage: enterTodo </name>
+                            <title>TodosPage: enterTodo </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1595029376329' status='passed' stop='1595029376598'>
+                                    <name>I fill field ".new-todo", "1"</name>
+                                    <title>I fill field ".new-todo", "1"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1595029376999' status='passed' stop='1595029377229'>
+                                    <name>I press key "Enter"</name>
+                                    <title>I press key "Enter"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1595029377229' status='passed' stop='1595029377253'>
+                    <name>Then I see the new todo on my list </name>
+                    <title>Then I see the new todo on my list </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1595029377229' status='passed' stop='1595029377253'>
+                            <name>TodosPage: seeNumberOfTodos </name>
+                            <title>TodosPage: seeNumberOfTodos </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1595029377229' status='passed' stop='1595029377253'>
+                                    <name>I see number of visible elements ".todo-list li", 1</name>
+                                    <title>I see number of visible elements ".todo-list li", 1</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1595029377319' status='failed' stop='1595029382538'>
+            <name>Create multiple todos @bdd</name>
+            <title>Create multiple todos @bdd</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='ed6ad2b2-6a9c-41c5-af38-19cf0e402e1b-attachment.png' type='image/png' size='4598'/>
+            </attachments>
+            <failure>
+                <message>No steps matching "I have these todos on my list"</message>
+                <stack-trace>Error: No steps matching "I have these todos on my list"
+                    at matchStep (C:\code\codeceptjs\examples\node_modules\codeceptjs\lib\interfaces\bdd.js:39:9)
+                    at runSteps (C:\code\codeceptjs\examples\node_modules\codeceptjs\lib\interfaces\gherkin.js:37:18)
+                    at Test.&lt;anonymous> (C:\code\codeceptjs\examples\node_modules\codeceptjs\lib\interfaces\gherkin.js:87:46)
+                    at Context.test.fn (C:\code\codeceptjs\examples\node_modules\codeceptjs\lib\scenario.js:57:14)
+                    at callFnAsync (C:\code\codeceptjs\examples\node_modules\mocha\lib\runnable.js:415:21)
+                    at Test.Runnable.run (C:\code\codeceptjs\examples\node_modules\mocha\lib\runnable.js:357:7)
+                    at Runner.runTest (C:\code\codeceptjs\examples\node_modules\mocha\lib\runner.js:535:10)
+                    at C:\code\codeceptjs\examples\node_modules\mocha\lib\runner.js:653:12
+                    at next (C:\code\codeceptjs\examples\node_modules\mocha\lib\runner.js:447:14)
+                    at C:\code\codeceptjs\examples\node_modules\mocha\lib\runner.js:457:7</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
