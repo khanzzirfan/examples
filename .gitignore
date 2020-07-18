@@ -61,6 +61,6 @@ typings/
 .next
 
 # docker folders
-data
-allure-reports
-allure-results
+data/*
+allure-reports/*
+allure-results/*
