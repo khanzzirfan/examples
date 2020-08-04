@@ -55,7 +55,7 @@ exports.config = {
       retries: 5,
     },
     reportportal: {
-      enabled: true,
+      enabled: false,
       require: "@reportportal/agent-js-codecept",
       token: "0a5dda99-d7dd-4529-bc1f-bb76c98ff723",
       endpoint: "http://localhost:8080/api/v1",
