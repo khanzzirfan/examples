@@ -59,3 +59,11 @@ typings/
 
 # next.js build output
 .next
+
+# docker folders
+data/*
+allure-reports/*
+allure-results/*
+/allure-reports
+/allure-results
+/data
